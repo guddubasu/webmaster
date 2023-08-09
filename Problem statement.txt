@@ -1,0 +1,24 @@
+/*IEI Students’ Chapter CSE (AOT) is organizing a one day tech conference for students and professionals.
+Attendees can register for the event and submit their conference paper for approval. It would be a paid
+event for professionals and outside AOT attendees. AOT students will get free entry by registering on the
+site.
+You need to develop a website for Conference. The website should serve as an all-inclusive platform
+for the conference attendees and potential participants.
+Participants are required to create a conference website with the following key features:
+1. Navbar: A sticky and responsive navigation bar at the top with the conference logo and menu
+items (Home, Conference Details, Speakers, Sessions, Journal Submission, Contact, Login/Signup).
+2. Conference Details: Present essential information about the conference, including its theme, dates,
+location, and any other pertinent details that would provide a comprehensive overview of the event.
+3. Conference Speaker Details and Session Timelines: Design an interactive section that
+showcases information about the conference speakers and their respective sessions. Additionally,
+include a visually appealing and dynamic timeline for the conference sessions, allowing users to view
+the schedule at a glance.
+4. Journal Submission Link and Guidelines: Provide a well-defined page or section containing the
+necessary details for authors to submit their research papers or journal articles for potential
+presentation at the conference.
+5. Optional: Login/Signup Button: Include an optional feature for attendees to create accounts and log in,
+granting them personalized access to exclusive conference resources and materials.
+Assets : Conference name - Symposium
+Conference duration - Inauguration by 10 am, 2 hours Speech by 2 speakers of IEI,
+Conference paper presentation from 2 pm - 5 pm.
+Conference topic - Machine Learning, Deep Learning, Soft Computing

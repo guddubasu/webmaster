@@ -1,0 +1,255 @@
+/* CSS for the Navigation Bar */
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Background color for the navbar */
+  }
+  
+  ul.menu li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  ul.menu li:last-child {
+    margin-right: 0;
+  }
+  
+  ul.menu li a {
+    color: #fff; /* Text color for the menu items */
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  
+  ul.menu li a:hover {
+    background-color: #555; /* Background color on hover */
+    border-radius: 5px;
+  }
+  
+  /* Sticky Navbar */
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  /* Optional: Add media queries for responsive design */
+  @media (max-width: 768px) {
+    ul.menu {
+      text-align: center;
+    }
+  
+    ul.menu li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  #conference-details {
+    text-align: center;
+    background-color: #f9f9f9; /* Background color for the section */
+    padding: 50px 0; /* Adjust the padding as needed */
+  }
+  
+  #conference-details h1 {
+    color: #333; /* Text color for the section heading */
+  }
+  
+  #conference-details p {
+    color: #666; /* Text color for the section content */
+    margin: 10px 0;
+  }
+  
+  /* Optional: Center the content horizontally */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  #speakers {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 50px 0;
+  }
+  
+  #speakers h2 {
+    color: #333;
+  }
+  
+  .speaker {
+    margin-bottom: 20px;
+  }
+  
+  .speaker h3 {
+    color: #555;
+  }
+  .speaker p {
+    color: #666;
+  }
+  
+  /* CSS for the Timeline */
+  .timeline {
+    margin-top: 30px;
+  }
+  
+  .timeline-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-item:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #333; /* Color of the timeline bullet */
+    margin-right: 10px;
+  }
+  
+  .timeline-item span {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .timeline-item p {
+    color: #666;
+    margin-left: 30px;
+  }
+
+  #journal-submission {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 50px 0;
+  }
+  
+  #journal-submission h2 {
+    color: #333;
+  }
+  
+  #journal-submission p {
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  /* Add additional styling for the paper submission guidelines */
+  .submission-guidelines {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .submission-guidelines h3 {
+    color: #555;
+    margin-top: 0;
+  }
+  
+  .submission-guidelines ol {
+    padding-left: 20px;
+  }
+  
+  .submission-guidelines li {
+    margin: 10px 0;
+  }
+  /* CSS for the Login/Signup Section */
+#login-signup {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 50px 0;
+  }
+  
+  #login-signup h2 {
+    color: #333;
+  }
+  
+  #login-signup p {
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  /* CSS for the Login and Signup Forms */
+  .login-form, .signup-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .login-form h3, .signup-form h3 {
+    color: #555;
+    margin-top: 0;
+  }
+  
+  .login-form label, .signup-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-form input, .signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .login-form button, .signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover, .signup-form button:hover {
+    background-color: #555;
+  }
+
+  footer {
+    text-align: center;
+    background-color: #333;
+    padding: 20px 0;
+    color: #fff;
+  }
+  footer p {
+    margin: 10px 0;
+  }
+
+  /* CSS for the Sessions Section */
+#sessions {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+#sessions h1 {
+  color: #333;
+}
+
+.session {
+  margin-bottom: 30px;
+}
+
+.session h2 {
+  color: #555;
+}
+
+.session p {
+  color: #666;
+  margin: 10px 0;
+}
+
+/* Optional: Center the content horizontally */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
